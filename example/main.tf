@@ -14,10 +14,5 @@ module "redis" {
     preferred_cache_cluster_azs                   = var.preferred_cache_cluster_azs
     maintenance_window                            = var.maintenance_window
 
-    common_tags = {
-        Environment                         = "PROD"
-        CostCode                            = "Redis"
-        TF_State                            = "s3_bucket"
-        Tool                                = "Terraform"
-    }
+    common_tags = var.common_tags
 }
