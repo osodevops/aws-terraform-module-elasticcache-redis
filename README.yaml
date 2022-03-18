@@ -11,7 +11,7 @@ name: "Multi AZ Elastic Cache Cluster with CloudWatch Metric Alarm and SNS Topic
 description: |-
   Multi AZ redis cluster with a metric alarm. 
 # Canonical GitHub repo
-github_repo: https://github.com/osodevops/aws-terraform-module-redis
+github_repo: https://github.com/osodevops/aws-terraform-module-elastic-cache-redis
 
 # How to use this project
 usage: |-
